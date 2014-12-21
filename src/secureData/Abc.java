@@ -2,6 +2,7 @@ package secureData;
 
 public class Abc{
 
+	// whats wrong with this code ?? 
 	private Abc abc = null;
 	private Abc(){}
 	
@@ -18,3 +19,49 @@ public class Abc{
 }
 
 
+/**************
+
+
+see answer below:
+
+
+
+/*********************
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Inside static block variables should be static too. 
+Solution: make abc static on line 6  
+
+****************************/
